@@ -10,7 +10,7 @@ Each note states the block it was read at and lists the contracts and transactio
 
 | Date | Note | What it covers |
 |---|---|---|
-| 2026-10-30 | [A 60M USDT position on Aave waiting for liquidation](cases/2026-10-binance-exploit-aave-leg.md) | The Binance exploiter's Aave position, why the USDT blacklist does not reach it, and how the liquidation would run under the close factor |
+| 2026-10-30 | [A 60M USDT position on Aave waiting for liquidation](cases/2026-10-binance-exploit-aave-leg.md) | The Binance exploiter's Aave position, why the USDT blacklist does not reach it, how the liquidation was expected to run, and how it ran on 4 November |
 | 2026-08-25 | [PT-reUSD liquidations on Morpho, where the collateral went](cases/2026-08-pt-reusd-liquidations-morpho.md) | 33 liquidations in 14 minutes, why 96% of the seized PT never left Morpho, and what that means for exit liquidity on PT collateral |
 
 ## How these notes are made
