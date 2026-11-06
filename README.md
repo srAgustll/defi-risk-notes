@@ -10,6 +10,7 @@ Each note states the block it was read at and lists the contracts and transactio
 
 | Date | Note | What it covers |
 |---|---|---|
+| 2026-11-06 | [tBTC on Aave while redemption is paused, the price Aave sees and the exit a liquidator has](cases/2026-11-tbtc-aave-redemption-pause.md) | A frozen reserve priced at BTC / USD, who borrows against it, how much tBTC a fall in BTC would release, and how the on chain exit for that tBTC shrank from about 215 to about 135 tBTC in three days |
 | 2026-10-30 | [A 60M USDT position on Aave waiting for liquidation](cases/2026-10-binance-exploit-aave-leg.md) | The Binance exploiter's Aave position, why the USDT blacklist does not reach it, how the liquidation was expected to run, and how it ran on 4 November |
 | 2026-08-25 | [PT-reUSD liquidations on Morpho, where the collateral went](cases/2026-08-pt-reusd-liquidations-morpho.md) | 33 liquidations in 14 minutes, why 96% of the seized PT never left Morpho, and what that means for exit liquidity on PT collateral |
 
