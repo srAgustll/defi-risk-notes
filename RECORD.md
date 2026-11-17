@@ -30,8 +30,11 @@ What the note did not anticipate. It left open what a liquidator would do with t
 | 6 November 2026, [commit 55411ab](https://github.com/srAgustll/defi-risk-notes/commit/55411ab) | [tBTC on Aave while redemption is paused](cases/2026-11-tbtc-aave-redemption-pause.md) | A tBTC discount to BTC reaches no health factor. If BTC falls 30%, about 245 tBTC enters the first round of liquidations, against an on chain exit that absorbs about 135 tBTC before the liquidation bonus is used up | A liquidation of tBTC collateral while the reserve is frozen, read for what the liquidator does with the tBTC, or redemption reopening first |
 | 9 November 2026, [commit 07d01d3](https://github.com/srAgustll/defi-risk-notes/commit/07d01d3) | [What Aave sees when it prices collateral](cases/2026-11-aave-oracle-map.md) | For 41.1% of the collateral a discount to the reference asset reaches no health factor. At market prices 5% below the oracle, 125 accounts with 3.73B of debt would be under health factor 1 and none would be liquidated. One USDe account carries 382M of debt at a health factor of 1.024, priced at USDT / USD | One of those assets trading below its oracle price for long enough to count liquidations, or Aave changing the price source |
 
-Last checked on 10 November 2026 at block 26,382,866. None of the three has settled. The first position sits at a health factor of 1.32 with ETH at 2,117, the tBTC reserve is still frozen, and the USDe account is at 1.024.
+Last checked on 16 November 2026 at block 26,426,794. None of the three has settled. The first position sits at a health factor of 1.56 with ETH at 1,795, the tBTC reserve is still frozen, and the USDe account is at 1.024.
 
 ## Corrections
 
-No figure published in this repository has been corrected after publication so far. When one is, it is listed here with the commit that changed it.
+No figure published in this repository has been corrected after publication so far. Two sentences have, both in the 9 November version of [the oracle map](cases/2026-11-aave-oracle-map.md) and both fixed in the 16 November update.
+
+- It said USDe was the second largest group by debt at risk at 5%. It was the third, with 526M against 568M for rsETH. On 16 November it is the second, with 571M against 467M.
+- It called weETH, wstETH and rsETH the three largest groups. They are the three largest ETH staking groups. cbBTC was larger than rsETH, 1,324M supplied against 672M and 708M of debt against 616M.
