@@ -10,6 +10,7 @@ Each note states the block it was read at and lists the contracts and transactio
 
 | Date | Note | What it covers |
 |---|---|---|
+| 2026-11-23 | [How old the prices Aave uses are, Ethereum Core](cases/2026-11-aave-price-age.md) | How long before the block each Chainlink answer behind Aave V3 Core was written, which collateral rides on the two stablecoin answers that are written once a day, and how much of the supply that is |
 | 2026-11-18 | [How four lending venues price wstETH](cases/2026-11-wsteth-four-venues.md) | What Aave, Spark, Compound and Morpho multiply the Lido exchange rate by, and where the market price of stETH enters the price path of each, read at one block |
 | 2026-11-09, updated 2026-11-16 | [What Aave sees when it prices collateral, a map of Ethereum Core](cases/2026-11-aave-oracle-map.md) | Which collateral Aave prices without looking at its own market, who borrows against it, and how much debt would sit below health factor 1 if that collateral traded 5% under the oracle |
 | 2026-11-06 | [tBTC on Aave while redemption is paused, the price Aave sees and the exit a liquidator has](cases/2026-11-tbtc-aave-redemption-pause.md) | A frozen reserve priced at BTC / USD, who borrows against it, how much tBTC a fall in BTC would release, and how the on chain exit for that tBTC shrank from about 215 to about 135 tBTC in three days |
