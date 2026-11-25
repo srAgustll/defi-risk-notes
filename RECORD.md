@@ -30,7 +30,7 @@ What the note did not anticipate. It left open what a liquidator would do with t
 | 6 November 2026, [commit 55411ab](https://github.com/srAgustll/defi-risk-notes/commit/55411ab) | [tBTC on Aave while redemption is paused](cases/2026-11-tbtc-aave-redemption-pause.md) | A tBTC discount to BTC reaches no health factor. If BTC falls 30%, about 245 tBTC enters the first round of liquidations, against an on chain exit that absorbs about 135 tBTC before the liquidation bonus is used up | A liquidation of tBTC collateral while the reserve is frozen, read for what the liquidator does with the tBTC, or redemption reopening first |
 | 9 November 2026, [commit 07d01d3](https://github.com/srAgustll/defi-risk-notes/commit/07d01d3) | [What Aave sees when it prices collateral](cases/2026-11-aave-oracle-map.md) | For 41.1% of the collateral a discount to the reference asset reaches no health factor. At market prices 5% below the oracle, 125 accounts with 3.73B of debt would be under health factor 1 and none would be liquidated. One USDe account carries 382M of debt at a health factor of 1.024, priced at USDT / USD | One of those assets trading below its oracle price for long enough to count liquidations, or Aave changing the price source |
 
-Last checked on 16 November 2026 at block 26,426,794. None of the three has settled. The first position sits at a health factor of 1.56 with ETH at 1,795, the tBTC reserve is still frozen, and the USDe account is at 1.024.
+Last checked on 25 November 2026 at block 26,491,309. None of the three has settled. The first position sits at a health factor of 1.71 with ETH at 1,637, the tBTC reserve is still frozen, and the USDe account is at 1.024 with 383M of debt.
 
 ## Corrections
 
